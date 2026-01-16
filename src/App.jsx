@@ -80,7 +80,7 @@ function App() {
             return (
               <div
                 key={idx}
-                className="relative min-h-52 w-42 rounded-2xl bg-cover bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')] text-black p-4 overflow-auto"
+                className="relative min-h-52 w-42 rounded-2xl bg-cover bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')] text-black p-4 overflow-auto transition-transform duration-300 ease-in-out hover:scale-105"
               >
                 <div className="flex justify-between">
                   <h2 className=" flex justify-center border border-black h-7.5 w-7.5 bg-blue-400 text-white font-bold rounded-full mt-2">
